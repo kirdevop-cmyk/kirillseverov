@@ -1,0 +1,39 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Превʼю сайту AutoKey — авто із США під ключ">
+  <rect width="800" height="500" fill="#0c0e12"/>
+  <rect width="800" height="36" fill="#07080b"/>
+  <circle cx="22" cy="18" r="5" fill="#ff6058"/><circle cx="40" cy="18" r="5" fill="#ffbd2e"/><circle cx="58" cy="18" r="5" fill="#28c93f"/>
+  <rect x="280" y="10" width="240" height="16" rx="8" fill="#14161c"/>
+  <text x="400" y="22" font-family="monospace" font-size="10" fill="#7d8aa0" text-anchor="middle">autokeykh.lovable.app</text>
+  <!-- nav -->
+  <rect x="40" y="56" width="26" height="26" rx="7" fill="#ffd400"/><text x="53" y="74" font-family="Arial" font-size="14" fill="#0c0e12" text-anchor="middle" font-weight="bold">A</text>
+  <text x="76" y="74" font-family="Arial" font-size="16" fill="#fff" font-weight="bold">AutoKey</text>
+  <g font-family="Arial" font-size="11" fill="#9aa6bb"><text x="490" y="71">Каталог</text><text x="565" y="71">Калькулятор</text><text x="665" y="71">Як працює</text></g>
+  <!-- hero -->
+  <rect x="40" y="98" width="430" height="206" rx="14" fill="#12151c"/>
+  <rect x="40" y="98" width="430" height="206" rx="14" fill="url(#ag)"/>
+  <defs><linearGradient id="ag" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b2030"/><stop offset="1" stop-color="#0c0e12"/></linearGradient></defs>
+  <text x="68" y="150" font-family="Arial" font-size="25" fill="#fff" font-weight="bold">Авто із США</text>
+  <text x="68" y="182" font-family="Arial" font-size="25" fill="#ffd400" font-weight="bold">під ключ</text>
+  <text x="68" y="208" font-family="Arial" font-size="11" fill="#9aa6bb">Copart · IAAI · доставка та розмитнення</text>
+  <rect x="68" y="226" width="150" height="34" rx="8" fill="#ffd400"/><text x="143" y="248" font-family="Arial" font-size="11" fill="#0c0e12" text-anchor="middle" font-weight="bold">Підібрати авто →</text>
+  <!-- car silhouette -->
+  <g transform="translate(300,232)">
+    <path d="M10 28 Q26 6 60 4 L110 4 Q140 6 158 26 L168 28 Q176 30 176 38 L176 46 L8 46 L8 38 Q8 30 10 28Z" fill="#2a3142"/>
+    <path d="M40 24 L66 10 L104 10 L128 24 Z" fill="#3d4659"/>
+    <circle cx="44" cy="48" r="14" fill="#0c0e12" stroke="#5a6678" stroke-width="3"/><circle cx="138" cy="48" r="14" fill="#0c0e12" stroke="#5a6678" stroke-width="3"/>
+  </g>
+  <!-- calculator card -->
+  <rect x="486" y="98" width="274" height="206" rx="14" fill="#12151c" stroke="#22273300"/>
+  <text x="510" y="128" font-family="Arial" font-size="12" fill="#fff" font-weight="bold">Калькулятор вартості</text>
+  <rect x="510" y="142" width="226" height="30" rx="7" fill="#1a1f2b"/><text x="522" y="162" font-family="Arial" font-size="10" fill="#8390a6">Аукціон · ціна лоту, $</text>
+  <rect x="510" y="180" width="108" height="30" rx="7" fill="#1a1f2b"/><text x="522" y="200" font-family="Arial" font-size="10" fill="#8390a6">Об'єм</text>
+  <rect x="628" y="180" width="108" height="30" rx="7" fill="#1a1f2b"/><text x="640" y="200" font-family="Arial" font-size="10" fill="#8390a6">Рік</text>
+  <rect x="510" y="220" width="226" height="44" rx="10" fill="#1c2230"/><text x="524" y="240" font-family="Arial" font-size="10" fill="#8390a6">Під ключ у Києві</text><text x="524" y="258" font-family="Arial" font-size="16" fill="#ffd400" font-weight="bold">$ 14 200</text>
+  <rect x="510" y="272" width="226" height="22" rx="6" fill="#ffd400"/><text x="623" y="287" font-family="Arial" font-size="10" fill="#0c0e12" text-anchor="middle" font-weight="bold">Розрахувати</text>
+  <!-- catalog row -->
+  <g font-family="Arial">
+    <rect x="40" y="324" width="226" height="144" rx="12" fill="#12151c"/><rect x="56" y="340" width="194" height="74" rx="8" fill="#1c2230"/><rect x="80" y="372" width="146" height="22" rx="6" fill="#2a3142"/><text x="56" y="438" font-size="12" fill="#fff" font-weight="bold">BMW X5</text><text x="56" y="457" font-size="12" fill="#ffd400" font-weight="bold">$ 21 500</text>
+    <rect x="287" y="324" width="226" height="144" rx="12" fill="#12151c"/><rect x="303" y="340" width="194" height="74" rx="8" fill="#1c2230"/><rect x="327" y="372" width="146" height="22" rx="6" fill="#2a3142"/><text x="303" y="438" font-size="12" fill="#fff" font-weight="bold">Tesla Model 3</text><text x="303" y="457" font-size="12" fill="#ffd400" font-weight="bold">$ 18 900</text>
+    <rect x="534" y="324" width="226" height="144" rx="12" fill="#1c2230"/><text x="556" y="386" font-size="22" fill="#ffd400" font-weight="bold">під ключ</text><text x="556" y="408" font-size="11" fill="#9aa6bb">розрахунок і доставка</text>
+  </g>
+</svg>

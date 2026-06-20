@@ -1,0 +1,39 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Превʼю сайту сервісного центру iCare з AI-помічником">
+  <rect width="800" height="500" fill="#0f1620"/>
+  <rect width="800" height="36" fill="#0a0f16"/>
+  <circle cx="22" cy="18" r="5" fill="#ff6058"/><circle cx="40" cy="18" r="5" fill="#ffbd2e"/><circle cx="58" cy="18" r="5" fill="#28c93f"/>
+  <rect x="300" y="10" width="200" height="16" rx="8" fill="#16202c"/>
+  <text x="400" y="22" font-family="monospace" font-size="10" fill="#6f8aa6" text-anchor="middle">icare.com.ua</text>
+  <!-- nav -->
+  <rect x="40" y="56" width="26" height="26" rx="8" fill="#2ea7ff"/><text x="53" y="74" font-family="Arial" font-size="15" fill="#fff" text-anchor="middle" font-weight="bold">i</text>
+  <text x="76" y="74" font-family="Arial" font-size="16" fill="#fff" font-weight="bold">iCare</text>
+  <g font-family="Arial" font-size="11" fill="#9fb1c6"><text x="500" y="71">Послуги</text><text x="580" y="71">Ціни</text><text x="640" y="71">Контакти</text></g>
+  <rect x="724" y="56" width="56" height="26" rx="13" fill="#2ea7ff"/><text x="752" y="73" font-family="Arial" font-size="9" fill="#fff" text-anchor="middle">Заявка</text>
+  <!-- hero -->
+  <rect x="40" y="98" width="430" height="208" rx="14" fill="#16202c"/>
+  <text x="68" y="150" font-family="Arial" font-size="24" fill="#fff" font-weight="bold">Ремонт телефонів</text>
+  <text x="68" y="180" font-family="Arial" font-size="24" fill="#2ea7ff" font-weight="bold">за 30 хвилин</text>
+  <text x="68" y="206" font-family="Arial" font-size="11" fill="#8ea1b6">Гарантія · оригінальні запчастини</text>
+  <!-- service chips -->
+  <rect x="68" y="224" width="118" height="28" rx="14" fill="#1d2a38"/><text x="127" y="242" font-family="Arial" font-size="10" fill="#cfe0f0" text-anchor="middle">Заміна екрана</text>
+  <rect x="196" y="224" width="96" height="28" rx="14" fill="#1d2a38"/><text x="244" y="242" font-family="Arial" font-size="10" fill="#cfe0f0" text-anchor="middle">Батарея</text>
+  <rect x="68" y="260" width="118" height="30" rx="8" fill="#2ea7ff"/><text x="127" y="280" font-family="Arial" font-size="11" fill="#06121e" text-anchor="middle" font-weight="bold">Розрахувати →</text>
+  <!-- phone -->
+  <rect x="360" y="120" width="80" height="160" rx="14" fill="#0c141e" stroke="#2e4256"/>
+  <rect x="368" y="132" width="64" height="120" rx="6" fill="#15324a"/>
+  <circle cx="400" cy="266" r="6" fill="#2e4256"/>
+  <!-- AI assistant chat -->
+  <rect x="486" y="98" width="274" height="208" rx="14" fill="#101a25"/>
+  <circle cx="512" cy="124" r="11" fill="#2ea7ff"/><path d="M508 124h8M512 120v8" stroke="#06121e" stroke-width="2"/>
+  <text x="532" y="122" font-family="Arial" font-size="11" fill="#fff" font-weight="bold">AI-помічник</text>
+  <text x="532" y="136" font-family="Arial" font-size="8" fill="#5fe08a">● онлайн 24/7</text>
+  <rect x="506" y="150" width="180" height="34" rx="10" fill="#1c2a38"/><text x="518" y="164" font-family="Arial" font-size="9" fill="#aebfd2">Розбитий екран iPhone 13.</text><text x="518" y="177" font-family="Arial" font-size="9" fill="#aebfd2">Скільки коштує?</text>
+  <rect x="560" y="192" width="180" height="46" rx="10" fill="#13344e"/><text x="572" y="208" font-family="Arial" font-size="9" fill="#cfe6fa">Заміна екрана — від ₴2 400,</text><text x="572" y="221" font-family="Arial" font-size="9" fill="#cfe6fa">30 хв. Записати вас на</text><text x="572" y="234" font-family="Arial" font-size="9" fill="#cfe6fa">сьогодні 15:00?</text>
+  <rect x="506" y="250" width="234" height="30" rx="8" fill="#1c2a38"/><text x="518" y="269" font-family="Arial" font-size="9" fill="#7e90a6">Напишіть модель телефону…</text>
+  <circle cx="724" cy="265" r="11" fill="#2ea7ff"/><path d="M719 265h10M725 260l5 5-5 5" stroke="#06121e" stroke-width="1.6" fill="none"/>
+  <!-- bottom stats -->
+  <g font-family="Arial">
+    <rect x="40" y="326" width="346" height="142" rx="12" fill="#16202c"/><text x="62" y="384" font-size="24" fill="#fff" font-weight="bold">12 000+</text><text x="62" y="408" font-size="11" fill="#9fb1c6">ремонтів виконано</text>
+    <rect x="406" y="326" width="354" height="142" rx="12" fill="#13344e"/><text x="428" y="384" font-size="24" fill="#2ea7ff" font-weight="bold">AI 24/7</text><text x="428" y="408" font-size="11" fill="#a9cbe6">діагностика і запис онлайн</text>
+  </g>
+</svg>
