@@ -8,6 +8,32 @@
   "use strict";
   var prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+  /* ---- Preloader ---- */
+  (function () {
+    var pre = document.getElementById("preloader");
+    var fill = document.getElementById("preFill");
+    var pct = document.getElementById("prePct");
+    if (!pre) { document.body.classList.remove("no-scroll"); return; }
+
+    function finish() {
+      pre.classList.add("is-done");
+      document.body.classList.remove("no-scroll");
+      window.setTimeout(function () { if (pre && pre.parentNode) pre.parentNode.removeChild(pre); }, 700);
+    }
+    if (prefersReduced) { if (fill) fill.style.width = "100%"; finish(); return; }
+
+    var p = 0;
+    var timer = window.setInterval(function () {
+      p += Math.random() * 16 + 6;
+      if (p >= 100) { p = 100; window.clearInterval(timer); }
+      if (fill) fill.style.width = p + "%";
+      if (pct) pct.textContent = "Завантаження · " + Math.round(p) + "%";
+      if (p >= 100) window.setTimeout(finish, 280);
+    }, 130);
+    // safety: never trap the user
+    window.setTimeout(function () { window.clearInterval(timer); finish(); }, 4000);
+  })();
+
   /* ---- Sticky header ---- */
   var header = document.querySelector(".header");
   var onScroll = function () {

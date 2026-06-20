@@ -469,3 +469,64 @@ mark.hl {
 
 .skip { position: absolute; left: 12px; top: -60px; z-index: 300; background: var(--yellow); color: var(--ink); padding: 10px 18px; border-radius: 10px; font-weight: 600; transition: top .2s; }
 .skip:focus { top: 12px; }
+
+/* =========================================================
+   Reference-clone additions
+   ========================================================= */
+
+/* yellow-italic emphasis word in headings (.accent / .accent.ital) */
+.accent { color: var(--yellow-2); font-style: italic; }
+
+/* glass / frosted card aesthetic */
+.card, .step, .price, .faq details {
+  background: linear-gradient(160deg, rgba(255, 248, 235, .055), rgba(255, 248, 235, .02));
+  backdrop-filter: blur(10px);
+}
+.card:hover, .step:hover { background: linear-gradient(160deg, rgba(255, 248, 235, .08), rgba(255, 248, 235, .03)); }
+
+/* Preloader */
+body.no-scroll { overflow: hidden; }
+.preloader {
+  position: fixed; inset: 0; z-index: 9999; display: grid; place-items: center;
+  background: var(--bg); transition: opacity .6s var(--ease), visibility .6s;
+}
+.preloader.is-done { opacity: 0; visibility: hidden; }
+.pre__inner { width: min(440px, 82vw); text-align: center; }
+.pre__brand { font-family: "JetBrains Mono"; letter-spacing: .2em; text-transform: uppercase; font-size: .78rem; color: var(--paper); margin-bottom: 20px; }
+.pre__brand b { color: var(--yellow-2); }
+.pre__bar { height: 3px; background: rgba(255, 248, 235, .12); border-radius: 3px; overflow: hidden; }
+.pre__fill { height: 100%; width: 0; background: linear-gradient(90deg, var(--yellow), var(--yellow-2)); transition: width .25s linear; }
+.pre__pct { margin-top: 14px; font-family: "JetBrains Mono"; font-size: .7rem; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); }
+
+/* FAQ numbering */
+.faq summary .q-row { display: inline-flex; align-items: baseline; gap: 14px; }
+.faq summary .qn { font-family: "JetBrains Mono"; color: var(--yellow-2); font-size: .82rem; }
+
+/* Author timeline */
+.tl { display: grid; }
+.tl__row { display: grid; grid-template-columns: 96px 1fr; gap: 22px; padding: 22px 0; border-top: 1px solid var(--line); }
+.tl__row:first-child { border-top: none; padding-top: 0; }
+.tl__yr { font-family: "JetBrains Mono"; color: var(--yellow-2); font-size: .82rem; letter-spacing: .04em; }
+.tl h4 { font-size: 1.08rem; margin-bottom: 6px; }
+.tl p { color: var(--muted); font-size: .94rem; }
+@media (max-width: 560px) { .tl__row { grid-template-columns: 1fr; gap: 6px; } }
+
+/* Booking / reservation bar */
+.booking {
+  margin-top: 28px; border: 1px solid var(--line-2); border-radius: 20px; padding: clamp(22px, 3vw, 32px);
+  background: linear-gradient(135deg, rgba(255, 212, 0, .1), rgba(255, 248, 235, .02));
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 22px;
+}
+.booking__price { display: flex; align-items: baseline; gap: 12px; margin: 10px 0; }
+.booking__price b { font-family: "Inter Tight"; font-weight: 800; font-size: 2.1rem; color: var(--yellow-2); }
+.booking__price span { color: var(--muted); font-size: .9rem; max-width: 320px; }
+.pays { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+.pay { font-family: "JetBrains Mono"; font-size: .7rem; padding: 6px 11px; border: 1px solid var(--line-2); border-radius: 8px; color: var(--muted); letter-spacing: .03em; }
+
+/* Footer legal + big word */
+.foot__legal { border-top: 1px solid var(--line); margin-top: 36px; padding-top: 26px; color: var(--muted-2); font-size: .82rem; line-height: 1.7; }
+.foot__legal h5 { font-family: "JetBrains Mono"; text-transform: uppercase; letter-spacing: .14em; font-size: .7rem; color: var(--muted); margin-bottom: 12px; font-weight: 500; }
+.foot__legal p { margin: 2px 0; }
+.foot__legal a { color: var(--muted); }
+.foot__word { font-family: "Inter Tight"; font-weight: 800; font-size: clamp(3rem, 16vw, 11rem); color: rgba(255, 248, 235, .045); letter-spacing: -.05em; line-height: .9; margin-top: 34px; text-align: center; user-select: none; }
+.foot__word b { color: rgba(255, 212, 0, .14); }

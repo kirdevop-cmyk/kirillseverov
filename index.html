@@ -68,8 +68,17 @@
 }
 </script>
 </head>
-<body>
+<body class="no-scroll">
 <a class="skip" href="#main">Перейти до контенту</a>
+
+<!-- ============ PRELOADER ============ -->
+<div class="preloader" id="preloader">
+  <div class="pre__inner">
+    <div class="pre__brand">КИРИЛО СЕВЕРОВ · <b>САЙТИ ПІД КЛЮЧ</b></div>
+    <div class="pre__bar"><div class="pre__fill" id="preFill"></div></div>
+    <div class="pre__pct" id="prePct">Завантаження · 0%</div>
+  </div>
+</div>
 
 <!-- ============ HEADER ============ -->
 <header class="header" id="top">
@@ -175,7 +184,7 @@
     <div class="container">
       <div class="section-head center" data-reveal>
         <span class="eyebrow"><span class="idx">01</span> Чому сайт під ключ</span>
-        <h2 class="display-2" id="compare-title">Було <span class="text-y">→</span> стало</h2>
+        <h2 class="display-2" id="compare-title">Було <span class="accent">→ стало.</span></h2>
         <p class="lead">Що змінюється для бізнесу, коли замість «сайту для галочки» зʼявляється інструмент продажів.</p>
       </div>
 
@@ -221,7 +230,7 @@
     <div class="container">
       <div class="section-head" data-reveal>
         <span class="eyebrow"><span class="idx">02</span> Що ми робимо</span>
-        <h2 class="display-2" id="services-title">Повний цикл — від ідеї до перших заявок</h2>
+        <h2 class="display-2" id="services-title">Повний цикл — від ідеї до <span class="accent">перших заявок.</span></h2>
         <p class="lead">Беремо проєкт під ключ: дизайн, розробка, наповнення, SEO та запуск. Вам не потрібно збирати команду — все в одних руках.</p>
       </div>
       <div class="grid grid-3" data-reveal-stagger>
@@ -282,7 +291,7 @@
     <div class="container">
       <div class="section-head" data-reveal>
         <span class="eyebrow"><span class="idx">03</span> Як ми працюємо</span>
-        <h2 class="display-2" id="process-title">Прозорий процес у 5 кроків</h2>
+        <h2 class="display-2" id="process-title">Прозорий процес у <span class="accent">5 кроків.</span></h2>
         <p class="lead">Ви завжди розумієте, на якому етапі проєкт і що буде далі. Жодних «чорних скриньок».</p>
       </div>
       <div class="steps" data-reveal-stagger>
@@ -300,7 +309,7 @@
     <div class="container">
       <div class="section-head" data-reveal>
         <span class="eyebrow"><span class="idx">04</span> Портфоліо</span>
-        <h2 class="display-2" id="cases-title">Роботи, що принесли результат</h2>
+        <h2 class="display-2" id="cases-title">Роботи, що принесли <span class="accent">результат.</span></h2>
         <p class="lead">Кожен проєкт — це не лише дизайн, а конкретні цифри: заявки, продажі та позиції в пошуку.</p>
       </div>
       <div class="grid grid-3" data-reveal-stagger>
@@ -340,7 +349,7 @@
           <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg>
         </span>
         <div>
-          <h2 id="approach-title">Ми робимо сайти заради продажів, а не заради нагород</h2>
+          <h2 id="approach-title">Ми робимо сайти заради <span class="accent">продажів,</span> а не заради нагород</h2>
           <p>Краса важлива, але головна мета — щоб сайт приносив заявки й замовлення. Тому кожне рішення приймаємо з оглядом на конверсію, швидкість і зрозумілість для відвідувача. А пошукові системи люблять саме такі сайти.</p>
           <div class="hero__actions" style="margin-top:24px">
             <a class="btn btn--cta" href="#contact">Обговорити проєкт <span class="arrow" aria-hidden="true">→</span></a>
@@ -356,7 +365,7 @@
     <div class="container">
       <div class="section-head center" data-reveal>
         <span class="eyebrow"><span class="idx">05</span> Тарифи</span>
-        <h2 class="display-2" id="pricing-title">Оберіть свій формат</h2>
+        <h2 class="display-2" id="pricing-title">Оберіть свій <span class="accent">формат.</span></h2>
         <p class="lead">Прозорі пакети під різні завдання. Точну вартість фіксуємо після безкоштовного брифу.</p>
       </div>
       <div class="prices" data-reveal-stagger>
@@ -401,6 +410,19 @@
           <a class="btn btn--ghost btn--block" href="#contact">Обговорити проєкт</a>
         </div>
       </div>
+      <div class="booking" data-reveal>
+        <div>
+          <p class="eyebrow" style="margin-bottom:10px">Забронювати старт</p>
+          <div class="booking__price"><b>$0</b><span>Безкоштовний бриф і прорахунок вартості під вашу нішу — без зобов'язань.</span></div>
+          <div class="pays">
+            <span class="pay">Передоплата 50%</span>
+            <span class="pay">Оплата частинами</span>
+            <span class="pay">Договір ФОП</span>
+            <span class="pay">Безготівковий розрахунок</span>
+          </div>
+        </div>
+        <a class="btn btn--cta" href="#contact">Забронювати бриф <span class="arrow" aria-hidden="true">→</span></a>
+      </div>
       <p class="center muted" style="margin-top:24px;font-size:.9rem">Потрібно щось індивідуальне? <a href="#contact" class="text-y" style="font-weight:600">Напишіть — порахуємо саме під вас.</a></p>
     </div>
   </section>
@@ -433,15 +455,15 @@
     <div class="container">
       <div class="section-head center" data-reveal>
         <span class="eyebrow"><span class="idx">06</span> Питання та відповіді</span>
-        <h2 class="display-2" id="faq-title">Часті запитання</h2>
+        <h2 class="display-2" id="faq-title">Часті <span class="accent">запитання.</span></h2>
       </div>
       <div class="faq" data-reveal>
-        <details><summary>Скільки часу займає розробка сайту?</summary><p>Лендінг — 5–10 робочих днів, корпоративний сайт — 2–4 тижні, інтернет-магазин — від 4 тижнів. Точні терміни фіксуємо в договорі після брифу.</p></details>
-        <details><summary>Сайт уже буде готовий до SEO?</summary><p>Так. Базове технічне SEO входить у кожен проєкт: семантична структура, мікророзмітка, швидкість завантаження, мета-теги, sitemap і robots.txt. За потреби підключаємо повноцінне просування.</p></details>
-        <details><summary>Що означає «під ключ»?</summary><p>Ви отримуєте готовий до роботи сайт: дизайн, верстку, наповнення, налаштування домену, хостингу, аналітики та SEO. Вмикаєте — і він починає працювати на продажі.</p></details>
-        <details><summary>Чи зможу я сам редагувати контент?</summary><p>Так. Підключаємо зручну систему керування й проводимо коротке навчання. Ви зможете самостійно змінювати тексти, ціни та зображення.</p></details>
-        <details><summary>Чи буде підтримка після запуску?</summary><p>Так, доступна технічна підтримка та супровід: оновлення, доопрацювання, моніторинг позицій, резервні копії й консультації.</p></details>
-        <details><summary>Як відбувається оплата?</summary><p>Зазвичай 50% передоплати для старту і 50% після здачі. Для великих проєктів можлива поетапна оплата. Усе закріплюється договором.</p></details>
+        <details><summary><span class="q-row"><span class="qn">01</span>Скільки часу займає розробка сайту?</span></summary><p>Лендінг — 5–10 робочих днів, корпоративний сайт — 2–4 тижні, інтернет-магазин — від 4 тижнів. Точні терміни фіксуємо в договорі після брифу.</p></details>
+        <details><summary><span class="q-row"><span class="qn">02</span>Сайт уже буде готовий до SEO?</span></summary><p>Так. Базове технічне SEO входить у кожен проєкт: семантична структура, мікророзмітка, швидкість завантаження, мета-теги, sitemap і robots.txt. За потреби підключаємо повноцінне просування.</p></details>
+        <details><summary><span class="q-row"><span class="qn">03</span>Що означає «під ключ»?</span></summary><p>Ви отримуєте готовий до роботи сайт: дизайн, верстку, наповнення, налаштування домену, хостингу, аналітики та SEO. Вмикаєте — і він починає працювати на продажі.</p></details>
+        <details><summary><span class="q-row"><span class="qn">04</span>Чи зможу я сам редагувати контент?</span></summary><p>Так. Підключаємо зручну систему керування й проводимо коротке навчання. Ви зможете самостійно змінювати тексти, ціни та зображення.</p></details>
+        <details><summary><span class="q-row"><span class="qn">05</span>Чи буде підтримка після запуску?</span></summary><p>Так, доступна технічна підтримка та супровід: оновлення, доопрацювання, моніторинг позицій, резервні копії й консультації.</p></details>
+        <details><summary><span class="q-row"><span class="qn">06</span>Як відбувається оплата?</span></summary><p>Зазвичай 50% передоплати для старту і 50% після здачі. Для великих проєктів можлива поетапна оплата. Усе закріплюється договором.</p></details>
       </div>
     </div>
   </section>
@@ -456,7 +478,7 @@
         </div>
         <div data-reveal>
           <span class="eyebrow"><span class="idx">07</span> Про мене</span>
-          <h2 class="display-3" id="author-title">Привіт, я Кирило</h2>
+          <h2 class="display-3" id="author-title">Привіт, я <span class="accent">Кирило.</span></h2>
           <p class="lead" style="margin-top:14px">Понад 8 років створюю сайти, які працюють на бізнес. За цей час запустив 120+ проєктів — від простих лендінгів до інтернет-магазинів і SEO-стратегій для компаній у різних нішах.</p>
           <div class="author__stats">
             <div><b>120+</b><span>запущених проєктів</span></div>
@@ -470,6 +492,17 @@
           </div>
         </div>
       </div>
+
+      <div class="card" style="margin-top:clamp(28px,4vw,44px)" data-reveal>
+        <span class="eyebrow" style="margin-bottom:22px">Шлях</span>
+        <div class="tl">
+          <div class="tl__row"><span class="tl__yr">2017</span><div><h4>Перші сайти</h4><p>Почав із верстки та лендінгів на замовлення. Зрозумів головне: клієнту потрібні заявки, а не «красива картинка».</p></div></div>
+          <div class="tl__row"><span class="tl__yr">2019</span><div><h4>Розробка + SEO</h4><p>Додав технічну оптимізацію та просування. Сайти почали виходити в топ і давати органічний трафік.</p></div></div>
+          <div class="tl__row"><span class="tl__yr">2021</span><div><h4>Інтернет-магазини</h4><p>Складні проєкти з каталогами, оплатою та інтеграціями з CRM і складом під ключ.</p></div></div>
+          <div class="tl__row"><span class="tl__yr">2023</span><div><h4>Системний підхід</h4><p>Власна методологія: бриф → прототип → дизайн → розробка → SEO → запуск. Прогнозований результат для бізнесу.</p></div></div>
+          <div class="tl__row"><span class="tl__yr">2026</span><div><h4>120+ проєктів</h4><p>Сайти під ключ для різних ніш, 95% клієнтів повертаються за новими завданнями та підтримкою.</p></div></div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -477,7 +510,7 @@
   <section class="section section--alt" id="contact" aria-labelledby="contact-title">
     <div class="container">
       <div class="cta-final bg-spark" style="margin-bottom:48px" data-reveal>
-        <h2 id="contact-title">Побудуємо ваш сайт, що продає</h2>
+        <h2 id="contact-title">Побудуємо ваш <span class="accent">сайт, що продає.</span></h2>
         <p>Залиште заявку — і протягом доби зв'яжемось, щоб обговорити проєкт і порахувати вартість. Безкоштовно й без зобов'язань.</p>
       </div>
 
@@ -556,6 +589,17 @@
         <a href="#contact">Контакти</a>
       </div>
     </div>
+
+    <div class="foot__legal">
+      <h5>Юридична інформація</h5>
+      <p>ФОП Северов Кирило · ІПН: 0000000000 <span class="muted">(замініть на свої реквізити)</span></p>
+      <p>КВЕД 62.01 — Комп'ютерне програмування</p>
+      <p>Email: <a href="mailto:hello@kirillseverov.site">hello@kirillseverov.site</a> · Telegram: <a href="https://t.me/kirillseverov" target="_blank" rel="noopener">@kirillseverov</a></p>
+      <p>Працюємо офіційно, за договором. Оплата — безготівковий розрахунок або частинами.</p>
+    </div>
+
+    <div class="foot__word" aria-hidden="true">САЙТИ<b>·</b>ПІД КЛЮЧ</div>
+
     <div class="footer__bottom">
       <span>© <span id="year">2026</span> Кирило Северов. Усі права захищені.</span>
       <div class="footer__social">
