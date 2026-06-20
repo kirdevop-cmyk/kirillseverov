@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#0a0c10">
+<meta name="theme-color" content="#100c09">
 
 <title>Кирило Северов — Сайти під ключ та SEO-просування | Розробка сайтів, що продають</title>
 <meta name="description" content="Створюємо сайти, які подобаються людям і пошуковим системам. Дизайн та структура, що привертають увагу клієнтів. Орієнтуємось насамперед на зростання продажів і замовлень. Розробка під ключ + SEO.">
@@ -80,13 +80,13 @@
     </a>
     <nav class="nav" aria-label="Головне меню">
       <a href="#services">Послуги</a>
-      <a href="#process">Процес</a>
       <a href="#cases">Роботи</a>
+      <a href="#author">Про мене</a>
       <a href="#pricing">Ціни</a>
-      <a href="#faq">FAQ</a>
     </nav>
     <div class="header__cta">
-      <a class="btn btn--gold" href="#contact">Замовити сайт</a>
+      <a class="btn btn--cta" href="#contact">Отримати консультацію <span class="arrow" aria-hidden="true">→</span></a>
+      <a class="lang" href="https://kirillseverov.site/" aria-label="Мова: українська">UA</a>
       <button class="burger" type="button" aria-label="Відкрити меню" aria-expanded="false" aria-controls="drawer">
         <span></span><span></span><span></span>
       </button>
@@ -99,75 +99,125 @@
   <div class="drawer__panel">
     <button class="drawer__close" type="button" aria-label="Закрити меню">&times;</button>
     <a href="#services">Послуги</a>
-    <a href="#process">Процес</a>
     <a href="#cases">Роботи</a>
+    <a href="#process">Процес</a>
+    <a href="#author">Про мене</a>
     <a href="#pricing">Ціни</a>
     <a href="#faq">FAQ</a>
-    <a class="btn btn--gold btn--block" style="margin-top:18px" href="#contact">Замовити сайт</a>
+    <a class="btn btn--gold btn--block" style="margin-top:18px" href="#contact">Отримати консультацію</a>
   </div>
 </div>
 
 <main id="main">
 
   <!-- ============ HERO ============ -->
-  <section class="hero bg-video" id="hero" aria-labelledby="hero-title">
-    <div class="container hero__inner">
-      <div>
-        <span class="eyebrow" data-reveal><span class="idx">01</span> Розробка сайтів · SEO · Дизайн</span>
-        <h1 class="display-1" id="hero-title" data-reveal>
-          Створюємо сайти, які подобаються <span class="text-gold">людям і пошуковим системам</span>
-        </h1>
-        <p class="lead hero__sub" data-reveal>
-          Дизайн та розташування інформації привертають увагу ваших клієнтів.
-          Ми орієнтуємось насамперед на збільшення продажів і замовлень — а не просто «красиву картинку».
-        </p>
-        <div class="hero__actions" data-reveal>
-          <a class="btn btn--gold btn--lg" href="#contact">Замовити сайт під ключ →</a>
-          <a class="btn btn--ghost btn--lg" href="#cases">Подивитись роботи</a>
-        </div>
-        <div class="hero__trust" data-reveal>
-          <div><b>120+</b><span>проєктів запущено</span></div>
-          <div><b>8</b><span>років у веброзробці</span></div>
-          <div><b>×2,4</b><span>середнє зростання заявок</span></div>
-        </div>
-      </div>
-
-      <div class="hero__visual" data-reveal aria-hidden="true">
-        <div class="glass hero__card">
-          <div class="hero__card-top">
-            <div class="dot-row"><i></i><i></i><i></i></div>
-            <span class="url">your-site.com</span>
-          </div>
-          <div class="bar gold w-90"></div>
-          <div class="bar w-70"></div>
-          <div class="bar w-90"></div>
-          <div class="bar w-50"></div>
-          <div class="bar w-70"></div>
-          <div style="height:80px;border-radius:12px;background:linear-gradient(135deg,#23304d,#11151f);margin-top:8px"></div>
-        </div>
-        <div class="hero__metric">
-          <span class="pulse" aria-hidden="true">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M21 7v6"/><path d="M15 7h6"/></svg>
-          </span>
-          <div><b>+47%</b><span>конверсія за 3 міс.</span></div>
-        </div>
+  <section class="hero" id="hero" aria-labelledby="hero-title">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="hero__portrait" aria-hidden="true">
+      <div class="frame">
+        <span class="monogram">КС</span>
+        <span class="cap">Фото · Кирило Северов</span>
       </div>
     </div>
+
+    <div class="container hero__grid">
+      <div class="hero__left">
+        <span class="badge-pill" data-reveal>Веб·розробка · SEO · Під ключ</span>
+        <h1 class="display-1" id="hero-title" data-reveal>
+          Створюю <mark class="hl">сайти</mark>, що подобаються людям і виходять у топ пошуку.
+        </h1>
+        <p class="hero__sub" data-reveal>
+          Дизайн і структура привертають увагу ваших клієнтів. Орієнтуюсь насамперед
+          на зростання продажів і замовлень — а не просто «красиву картинку».
+        </p>
+        <div class="hero__actions" data-reveal>
+          <a class="btn btn--cta btn--lg" href="#contact">Отримати консультацію <span class="arrow" aria-hidden="true">→</span></a>
+          <a class="btn btn--ghost btn--lg" href="#cases">Дивитись роботи</a>
+        </div>
+      </div>
+
+      <aside class="hero__rail rail" data-reveal aria-label="Ключова інформація">
+        <div class="rail__block">
+          <span class="rail__label">Старт проєкту</span>
+          <div class="rail__big">14 днів</div>
+          <span class="rail__meta">online · під ключ</span>
+        </div>
+        <hr class="rail__div">
+        <div class="rail__block">
+          <span class="rail__label">Що отримуєш</span>
+          <ul class="rail__list">
+            <li>Сайт під ключ + дизайн <span class="rail__num">01</span></li>
+            <li>SEO-налаштування <span class="rail__num">02</span></li>
+            <li>Адаптив і швидкість <span class="rail__num">03</span></li>
+            <li>Аналітика та CRM <span class="rail__num">04</span></li>
+            <li>Підтримка після запуску <span class="rail__num">05</span></li>
+          </ul>
+        </div>
+        <hr class="rail__div">
+        <div class="rail__block">
+          <span class="rail__label">Вартість</span>
+          <div class="rail__price"><b>від $450</b> · бриф безкоштовно</div>
+        </div>
+      </aside>
+    </div>
+
+    <a class="hero__scroll" href="#compare" aria-label="Прокрутити вниз">
+      <span>Прокрути вниз</span>
+      <span class="ar" aria-hidden="true">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+      </span>
+    </a>
+    <div class="hero__audio" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
   </section>
 
-  <!-- ============ LOGOS ============ -->
-  <section class="section" style="padding-block:32px" aria-label="Сфери, з якими працюємо">
+  <!-- ============ БУЛО → СТАЛО ============ -->
+  <section class="section bg-spark" id="compare" aria-labelledby="compare-title">
     <div class="container">
-      <p class="center muted" style="margin-bottom:22px;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase">Працюємо з різними нішами</p>
-      <div class="logos" data-reveal>
-        <span>E-commerce</span><span>Послуги</span><span>Нерухомість</span>
-        <span>Освіта</span><span>Медицина</span><span>HoReCa</span><span>Виробництво</span>
+      <div class="section-head center" data-reveal>
+        <span class="eyebrow"><span class="idx">01</span> Чому сайт під ключ</span>
+        <h2 class="display-2" id="compare-title">Було <span class="text-y">→</span> стало</h2>
+        <p class="lead">Що змінюється для бізнесу, коли замість «сайту для галочки» зʼявляється інструмент продажів.</p>
+      </div>
+
+      <div class="compare" data-reveal-stagger>
+        <div class="compare__row">
+          <div class="cmp cmp--was"><b>$3 000+</b><span>агентство, місяці очікування</span></div>
+          <div class="cmp__arrow" aria-hidden="true"><span>→</span></div>
+          <div class="cmp cmp--now"><b><span class="y">$450</span></b><span class="tag">під ключ за 14 днів</span></div>
+        </div>
+        <div class="compare__row">
+          <div class="cmp cmp--was"><b>Сайт без заявок</b><span>відвідувачі йдуть</span></div>
+          <div class="cmp__arrow" aria-hidden="true"><span>→</span></div>
+          <div class="cmp cmp--now"><b>+47% конверсії</b><span class="tag">структура під продаж</span></div>
+        </div>
+        <div class="compare__row">
+          <div class="cmp cmp--was"><b>Не видно в Google</b><span>трафік купуєш</span></div>
+          <div class="cmp__arrow" aria-hidden="true"><span>→</span></div>
+          <div class="cmp cmp--now"><b>Топ-3 пошуку</b><span class="tag">органічний трафік</span></div>
+        </div>
+        <div class="compare__row">
+          <div class="cmp cmp--was"><b>Правки тижнями</b><span>залежиш від підрядника</span></div>
+          <div class="cmp__arrow" aria-hidden="true"><span>→</span></div>
+          <div class="cmp cmp--now"><b>Зміни за годину</b><span class="tag">зручна CMS</span></div>
+        </div>
+        <div class="compare__row">
+          <div class="cmp cmp--was"><b>Застарілий дизайн</b><span>не викликає довіри</span></div>
+          <div class="cmp__arrow" aria-hidden="true"><span>→</span></div>
+          <div class="cmp cmp--now"><b>Сучасний адаптив</b><span class="tag">працює на всіх екранах</span></div>
+        </div>
+      </div>
+
+      <div class="center" data-reveal>
+        <div class="hud" role="img" aria-label="Статус: сайт онлайн, SEO у нормі">
+          <span>[ STATUS: <span style="color:#9fe89f">LIVE</span> · LIGHTHOUSE: 98/100 ]</span>
+          <span>[ SEO: OK · CONVERSION: <span class="crit">GROWING ↑</span> ]</span>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- ============ SERVICES ============ -->
-  <section class="section section--alt bg-video" id="services" aria-labelledby="services-title">
+  <section class="section section--alt" id="services" aria-labelledby="services-title">
     <div class="container">
       <div class="section-head" data-reveal>
         <span class="eyebrow"><span class="idx">02</span> Що ми робимо</span>
@@ -246,7 +296,7 @@
   </section>
 
   <!-- ============ CASES ============ -->
-  <section class="section section--alt bg-video" id="cases" aria-labelledby="cases-title">
+  <section class="section section--alt" id="cases" aria-labelledby="cases-title">
     <div class="container">
       <div class="section-head" data-reveal>
         <span class="eyebrow"><span class="idx">04</span> Портфоліо</span>
@@ -293,7 +343,7 @@
           <h2 id="approach-title">Ми робимо сайти заради продажів, а не заради нагород</h2>
           <p>Краса важлива, але головна мета — щоб сайт приносив заявки й замовлення. Тому кожне рішення приймаємо з оглядом на конверсію, швидкість і зрозумілість для відвідувача. А пошукові системи люблять саме такі сайти.</p>
           <div class="hero__actions" style="margin-top:24px">
-            <a class="btn btn--gold" href="#contact">Обговорити проєкт</a>
+            <a class="btn btn--cta" href="#contact">Обговорити проєкт <span class="arrow" aria-hidden="true">→</span></a>
             <a class="btn btn--ghost" href="#pricing">Дивитись тарифи</a>
           </div>
         </div>
@@ -302,7 +352,7 @@
   </section>
 
   <!-- ============ PRICING ============ -->
-  <section class="section section--alt bg-video" id="pricing" aria-labelledby="pricing-title">
+  <section class="section section--alt" id="pricing" aria-labelledby="pricing-title">
     <div class="container">
       <div class="section-head center" data-reveal>
         <span class="eyebrow"><span class="idx">05</span> Тарифи</span>
@@ -351,7 +401,7 @@
           <a class="btn btn--ghost btn--block" href="#contact">Обговорити проєкт</a>
         </div>
       </div>
-      <p class="center muted" style="margin-top:24px;font-size:.9rem">Потрібно щось індивідуальне? <a href="#contact" class="text-gold" style="font-weight:600">Напишіть — порахуємо саме під вас.</a></p>
+      <p class="center muted" style="margin-top:24px;font-size:.9rem">Потрібно щось індивідуальне? <a href="#contact" class="text-y" style="font-weight:600">Напишіть — порахуємо саме під вас.</a></p>
     </div>
   </section>
 
@@ -415,7 +465,7 @@
           </div>
           <blockquote>«Сайт — це не витрата, а інструмент продажів. Моя робота — зробити так, щоб він окупився й приносив заявки щодня.»</blockquote>
           <div class="hero__actions" style="margin-top:26px">
-            <a class="btn btn--gold" href="#contact">Працювати зі мною</a>
+            <a class="btn btn--cta" href="#contact">Працювати зі мною <span class="arrow" aria-hidden="true">→</span></a>
             <a class="btn btn--ghost" href="https://t.me/kirillseverov" target="_blank" rel="noopener">Написати в Telegram</a>
           </div>
         </div>
@@ -426,7 +476,7 @@
   <!-- ============ CONTACT ============ -->
   <section class="section section--alt" id="contact" aria-labelledby="contact-title">
     <div class="container">
-      <div class="cta-final bg-video" style="margin-bottom:48px" data-reveal>
+      <div class="cta-final bg-spark" style="margin-bottom:48px" data-reveal>
         <h2 id="contact-title">Побудуємо ваш сайт, що продає</h2>
         <p>Залиште заявку — і протягом доби зв'яжемось, щоб обговорити проєкт і порахувати вартість. Безкоштовно й без зобов'язань.</p>
       </div>

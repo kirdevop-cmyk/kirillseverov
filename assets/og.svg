@@ -1,39 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0e1219"/>
-      <stop offset="1" stop-color="#0a0c10"/>
-    </linearGradient>
-    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f4cd7e"/>
-      <stop offset="1" stop-color="#e9b35a"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0.2" cy="0.1" r="0.7">
-      <stop offset="0" stop-color="#e9b35a" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#e9b35a" stop-opacity="0"/>
+    <radialGradient id="bg" cx="0.5" cy="0" r="1.1">
+      <stop offset="0" stop-color="#c2b09c"/>
+      <stop offset="0.45" stop-color="#6a5849"/>
+      <stop offset="1" stop-color="#15100b"/>
     </radialGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
-  <rect width="1200" height="630" fill="url(#glow)"/>
-  <g transform="translate(90,90)">
-    <rect width="84" height="84" rx="20" fill="url(#gold)"/>
-    <text x="42" y="56" font-family="'Inter Tight', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="middle" fill="#15110a">КС</text>
-    <text x="110" y="38" font-family="'Inter Tight', Arial, sans-serif" font-size="30" font-weight="700" fill="#eef1f6">Кирило Северов</text>
-    <text x="110" y="72" font-family="Arial, sans-serif" font-size="20" fill="#9aa6b8">Сайти під ключ · SEO-просування</text>
+  <rect width="1200" height="630" fill="#140f0a" opacity="0.45"/>
+  <g transform="translate(90,86)">
+    <rect width="84" height="84" rx="20" fill="#ffd400"/>
+    <text x="42" y="56" font-family="'Inter Tight', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="middle" fill="#14100a">КС</text>
+    <text x="110" y="36" font-family="'Inter Tight', Arial, sans-serif" font-size="30" font-weight="800" fill="#f3eee4">Кирило Северов</text>
+    <text x="110" y="70" font-family="monospace" font-size="18" fill="#c9bca9" letter-spacing="3">ВЕБ·РОЗРОБКА · SEO · ПІД КЛЮЧ</text>
   </g>
-  <text x="90" y="320" font-family="'Inter Tight', Arial, sans-serif" font-size="68" font-weight="800" fill="#eef1f6">Сайти, які подобаються</text>
-  <text x="90" y="398" font-family="'Inter Tight', Arial, sans-serif" font-size="68" font-weight="800" fill="url(#gold)">людям і пошуковим системам</text>
-  <text x="90" y="470" font-family="Arial, sans-serif" font-size="28" fill="#9aa6b8">Дизайн і структура, що збільшують продажі та замовлення</text>
-  <g transform="translate(90,520)">
-    <rect width="270" height="64" rx="32" fill="url(#gold)"/>
-    <text x="135" y="41" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#15110a">Замовити сайт →</text>
-  </g>
-  <g transform="translate(820,360)" opacity="0.9">
-    <rect x="0" y="0" width="290" height="190" rx="18" fill="#141a24" stroke="#ffffff22"/>
-    <rect x="22" y="26" width="180" height="14" rx="7" fill="url(#gold)"/>
-    <rect x="22" y="56" width="246" height="10" rx="5" fill="#1a2230"/>
-    <rect x="22" y="78" width="220" height="10" rx="5" fill="#1a2230"/>
-    <rect x="22" y="100" width="160" height="10" rx="5" fill="#1a2230"/>
-    <rect x="22" y="130" width="246" height="40" rx="10" fill="#23304d"/>
+  <text x="90" y="300" font-family="'Inter Tight', Arial, sans-serif" font-size="74" font-weight="800" fill="#f7f2e8">Створюю <tspan fill="#14100a">▍</tspan></text>
+  <rect x="368" y="244" width="232" height="74" rx="8" fill="#ffd400"/>
+  <text x="392" y="300" font-family="'Inter Tight', Arial, sans-serif" font-size="74" font-weight="800" fill="#14100a">сайти,</text>
+  <text x="90" y="392" font-family="'Inter Tight', Arial, sans-serif" font-size="74" font-weight="800" fill="#f7f2e8">що приносять заявки</text>
+  <text x="90" y="460" font-family="Arial, sans-serif" font-size="27" fill="#cabda9">Дизайн і SEO, що збільшують продажі та замовлення</text>
+  <g transform="translate(90,512)">
+    <rect width="330" height="66" rx="33" fill="#efe9df"/>
+    <text x="40" y="42" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#14100a">Отримати консультацію</text>
+    <circle cx="296" cy="33" r="22" fill="#ffd400"/>
+    <text x="296" y="41" font-family="Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle" fill="#14100a">→</text>
   </g>
 </svg>
