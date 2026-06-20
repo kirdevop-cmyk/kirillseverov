@@ -1,0 +1,13 @@
+{
+  "name": "Кирило Северов — Сайти під ключ та SEO",
+  "short_name": "Кирило Северов",
+  "description": "Розробка сайтів під ключ і SEO-просування.",
+  "lang": "uk",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0c10",
+  "theme_color": "#0a0c10",
+  "icons": [
+    { "src": "/assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
