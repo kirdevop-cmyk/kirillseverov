@@ -1,0 +1,30 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Превʼю освітньої платформи">
+  <rect width="800" height="500" fill="#eef1fb"/>
+  <rect width="800" height="36" fill="#11132a"/>
+  <circle cx="22" cy="18" r="5" fill="#ff6058"/><circle cx="40" cy="18" r="5" fill="#ffbd2e"/><circle cx="58" cy="18" r="5" fill="#28c93f"/>
+  <rect x="300" y="10" width="200" height="16" rx="8" fill="#1d2046"/>
+  <text x="400" y="22" font-family="monospace" font-size="10" fill="#8f95c4" text-anchor="middle">skillup-academy.ua</text>
+  <!-- nav -->
+  <rect x="40" y="56" width="26" height="26" rx="7" fill="#5a6cf0"/><path d="M47 69l6 4 6-4-6-4z" fill="#fff"/>
+  <text x="76" y="74" font-family="Arial" font-size="16" fill="#1d2046" font-weight="bold">SkillUp</text>
+  <g font-family="Arial" font-size="11" fill="#5a6080"><text x="520" y="72">Курси</text><text x="585" y="72">Викладачі</text><text x="675" y="72">Відгуки</text></g>
+  <!-- hero -->
+  <rect x="40" y="98" width="460" height="190" rx="14" fill="#e0e5fb"/>
+  <text x="68" y="156" font-family="Arial" font-size="26" fill="#1d2046" font-weight="bold">Нова професія</text>
+  <text x="68" y="188" font-family="Arial" font-size="26" fill="#5a6cf0" font-weight="bold">за 3 місяці</text>
+  <rect x="68" y="210" width="140" height="38" rx="9" fill="#5a6cf0"/><text x="138" y="234" font-family="Arial" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">Обрати курс</text>
+  <!-- progress card -->
+  <rect x="516" y="98" width="244" height="190" rx="14" fill="#fff"/>
+  <text x="538" y="128" font-family="Arial" font-size="12" fill="#1d2046" font-weight="bold">Особистий кабінет</text>
+  <text x="538" y="152" font-family="Arial" font-size="10" fill="#7a80a0">Прогрес курсу</text>
+  <rect x="538" y="162" width="200" height="10" rx="5" fill="#e0e5fb"/><rect x="538" y="162" width="132" height="10" rx="5" fill="#5a6cf0"/>
+  <text x="538" y="196" font-family="Arial" font-size="10" fill="#7a80a0">Наступний урок</text>
+  <rect x="538" y="206" width="200" height="30" rx="8" fill="#eef1fb"/><text x="550" y="226" font-family="Arial" font-size="10" fill="#5a6080">Модуль 6 · Воронки</text>
+  <rect x="538" y="246" width="200" height="28" rx="8" fill="#22c08a"/><text x="638" y="265" font-family="Arial" font-size="11" fill="#fff" text-anchor="middle" font-weight="bold">Продовжити</text>
+  <!-- course cards -->
+  <g font-family="Arial">
+    <rect x="40" y="308" width="226" height="160" rx="12" fill="#fff"/><rect x="56" y="324" width="194" height="64" rx="8" fill="#dfe4fa"/><text x="56" y="412" font-size="13" fill="#1d2046" font-weight="bold">Маркетинг</text><text x="56" y="446" font-size="13" fill="#5a6cf0" font-weight="bold">₴ 4 900</text>
+    <rect x="287" y="308" width="226" height="160" rx="12" fill="#fff"/><rect x="303" y="324" width="194" height="64" rx="8" fill="#dcf3ea"/><text x="303" y="412" font-size="13" fill="#1d2046" font-weight="bold">Дизайн</text><text x="303" y="446" font-size="13" fill="#5a6cf0" font-weight="bold">₴ 5 400</text>
+    <rect x="534" y="308" width="226" height="160" rx="12" fill="#5a6cf0"/><text x="556" y="372" font-size="24" fill="#fff" font-weight="bold">+41%</text><text x="556" y="396" font-size="11" fill="#dfe4fa">конверсія в покупку</text>
+  </g>
+</svg>
