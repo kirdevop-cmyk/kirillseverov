@@ -170,8 +170,8 @@ mark.hl {
 .btn--gold:hover { background: var(--yellow-2); transform: translateY(-2px); }
 
 /* ghost outline */
-.btn--ghost { background: rgba(255, 255, 255, .03); border-color: var(--line-2); color: var(--text); }
-.btn--ghost:hover { border-color: var(--yellow); background: var(--yellow-soft); }
+.btn--ghost { background: rgba(255, 248, 235, .05); border-color: rgba(255, 212, 0, .45); color: var(--paper-2); backdrop-filter: blur(4px); }
+.btn--ghost:hover { border-color: var(--yellow); background: var(--yellow-soft); color: #fff; transform: translateY(-2px); }
 
 .btn--block { display: flex; width: 100%; }
 .btn--lg { --h: 60px; font-size: 1.05rem; }
