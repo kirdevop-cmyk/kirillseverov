@@ -33,7 +33,7 @@
 <link rel="preconnect" href="https://i.ibb.co" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inter+Tight:wght@700;800&family=JetBrains+Mono:wght@500&display=swap">
 
-<link rel="stylesheet" href="./assets/styles.css?v=11">
+<link rel="stylesheet" href="./assets/styles.css?v=12">
 
 <!-- Structured data: local business -->
 <script type="application/ld+json">
@@ -73,6 +73,7 @@
 </head>
 <body class="no-scroll">
 <a class="skip" href="#main">Перейти до контенту</a>
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
 
 <!-- ============ PRELOADER ============ -->
 <div class="preloader" id="preloader">
@@ -159,6 +160,14 @@
     </a>
     <div class="hero__audio" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
   </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Лендінги<i>✦</i>Корпоративні сайти<i>✦</i>Інтернет-магазини<i>✦</i>SEO-просування<i>✦</i>Редизайн<i>✦</i>Інтеграції CRM<i>✦</i>Швидкість 90+<i>✦</i>Адаптив<i>✦</i>Підтримка 24/7<i>✦</i></span>
+      <span>Лендінги<i>✦</i>Корпоративні сайти<i>✦</i>Інтернет-магазини<i>✦</i>SEO-просування<i>✦</i>Редизайн<i>✦</i>Інтеграції CRM<i>✦</i>Швидкість 90+<i>✦</i>Адаптив<i>✦</i>Підтримка 24/7<i>✦</i></span>
+    </div>
+  </div>
 
   <!-- ============ БУЛО → СТАЛО ============ -->
   <section class="section bg-spark" id="compare" aria-labelledby="compare-title">
@@ -353,7 +362,7 @@
         <div class="price">
           <div class="price__name">Лендінг</div>
           <p class="price__sub">Один продукт чи послуга під рекламу</p>
-          <div class="price__amt"><b>$450</b><span>під ключ, від</span></div>
+          <div class="price__amt"><b data-count="450" data-prefix="$">$450</b><span>під ключ, від</span></div>
           <ul class="price__feat">
             <li>Унікальний дизайн</li>
             <li>До 6 секцій + форми</li>
@@ -367,7 +376,7 @@
           <span class="price__rib">Обирають найчастіше</span>
           <div class="price__name">Бізнес-сайт</div>
           <p class="price__sub">Корпоративний сайт із послугами та блогом</p>
-          <div class="price__amt"><b>$1200</b><span>під ключ, від</span></div>
+          <div class="price__amt"><b data-count="1200" data-prefix="$">$1200</b><span>під ключ, від</span></div>
           <ul class="price__feat">
             <li>Все з тарифу «Лендінг»</li>
             <li>До 12 сторінок + CMS</li>
@@ -380,7 +389,7 @@
         <div class="price">
           <div class="price__name">Магазин / SEO</div>
           <p class="price__sub">Інтернет-магазин або просування під ключ</p>
-          <div class="price__amt"><b>$2400</b><span>під ключ, від</span></div>
+          <div class="price__amt"><b data-count="2400" data-prefix="$">$2400</b><span>під ключ, від</span></div>
           <ul class="price__feat">
             <li>Все з тарифу «Бізнес-сайт»</li>
             <li>Каталог, кошик, оплата</li>
@@ -462,9 +471,9 @@
           <h2 class="display-3" id="author-title">Привіт, я <span class="accent">Кирило.</span></h2>
           <p class="lead" style="margin-top:14px">Понад 8 років створюю сайти, які працюють на бізнес. За цей час запустив 120+ проєктів — від простих лендінгів до інтернет-магазинів і SEO-стратегій для компаній у різних нішах.</p>
           <div class="author__stats">
-            <div><b>120+</b><span>запущених проєктів</span></div>
-            <div><b>8</b><span>років досвіду</span></div>
-            <div><b>95%</b><span>клієнтів повертаються</span></div>
+            <div><b data-count="120" data-suffix="+">120+</b><span>запущених проєктів</span></div>
+            <div><b data-count="8" data-suffix="">8</b><span>років досвіду</span></div>
+            <div><b data-count="95" data-suffix="%">95%</b><span>клієнтів повертаються</span></div>
           </div>
           <blockquote>«Сайт — це не витрата, а інструмент продажів. Моя робота — зробити так, щоб він окупився й приносив заявки щодня.»</blockquote>
           <div class="hero__actions" style="margin-top:26px">
@@ -576,6 +585,6 @@
   </div>
 </footer>
 
-<script src="./assets/main.js?v=11" defer></script>
+<script src="./assets/main.js?v=12" defer></script>
 </body>
 </html>

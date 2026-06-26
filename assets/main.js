@@ -134,4 +134,66 @@
       if (success) success.scrollIntoView({ behavior: prefersReduced ? "auto" : "smooth", block: "center" });
     });
   }
+
+  /* ---- Scroll progress bar ---- */
+  (function () {
+    var bar = document.getElementById("scrollProgress");
+    if (!bar) return;
+    var ticking = false;
+    function update() {
+      var h = document.documentElement;
+      var max = h.scrollHeight - h.clientHeight;
+      var p = max > 0 ? (h.scrollTop || document.body.scrollTop) / max : 0;
+      bar.style.width = (p * 100).toFixed(2) + "%";
+      ticking = false;
+    }
+    window.addEventListener("scroll", function () {
+      if (!ticking) { window.requestAnimationFrame(update); ticking = true; }
+    }, { passive: true });
+    update();
+  })();
+
+  /* ---- Count-up numbers ---- */
+  (function () {
+    var els = document.querySelectorAll("[data-count]");
+    if (!els.length) return;
+    function run(el) {
+      var target = parseFloat(el.getAttribute("data-count")) || 0;
+      var prefix = el.getAttribute("data-prefix") || "";
+      var suffix = el.getAttribute("data-suffix") || "";
+      if (prefixReducedOrSmall()) { el.textContent = prefix + format(target) + suffix; return; }
+      var dur = 1400, start = performance.now();
+      function tick(now) {
+        var t = Math.min((now - start) / dur, 1);
+        var eased = 1 - Math.pow(1 - t, 3);
+        el.textContent = prefix + format(Math.round(target * eased)) + suffix;
+        if (t < 1) requestAnimationFrame(tick);
+      }
+      requestAnimationFrame(tick);
+    }
+    function format(n) { return n >= 1000 ? n.toLocaleString("uk-UA").replace(/ /g, " ") : String(n); }
+    function prefixReducedOrSmall() { return prefersReduced; }
+    if (!("IntersectionObserver" in window) || prefersReduced) { els.forEach(run); return; }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { run(e.target); io.unobserve(e.target); } });
+    }, { threshold: 0.6 });
+    els.forEach(function (el) { io.observe(el); });
+  })();
+
+  /* ---- Subtle 3D tilt on cards (hover-capable, motion-on only) ---- */
+  (function () {
+    if (prefersReduced) return;
+    if (!window.matchMedia("(hover: hover) and (pointer: fine)").matches) return;
+    var cards = document.querySelectorAll(".card, .price");
+    cards.forEach(function (card) {
+      card.classList.add("tilt");
+      card.addEventListener("mousemove", function (e) {
+        var r = card.getBoundingClientRect();
+        var px = (e.clientX - r.left) / r.width - 0.5;
+        var py = (e.clientY - r.top) / r.height - 0.5;
+        card.style.transform = "perspective(820px) rotateX(" + (-py * 6).toFixed(2) + "deg) rotateY(" + (px * 6).toFixed(2) + "deg) translateY(-6px)";
+      });
+      card.addEventListener("mouseleave", function () { card.style.transform = ""; });
+    });
+  })();
 })();
